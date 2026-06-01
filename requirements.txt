@@ -1,2 +1,2 @@
-# Browser-based snake game.
-# No Python dependencies are required for the HTML/CSS/JS version.
+tkinter
+python 3.14
