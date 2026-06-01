@@ -1,22 +1,23 @@
 # 🐍 Snake Game
 
-A classic Snake game reimplemented for the browser using HTML, CSS, and JavaScript.
+A classic Snake game implementation using Python and Tkinter. Navigate the snake around the board, eat food to grow, and avoid collisions!
 
 ## 📋 Features
 
-- **Browser-based gameplay** — no Python required
-- **Responsive controls** — arrow keys move the snake
-- **Score tracking** — live score updates on screen
-- **Collision detection** — game ends when the snake hits a wall or itself
-- **Clean UI** — modern layout with a centered canvas and restart button
+- **Classic Gameplay** - Control a growing snake on a grid-based board
+- **Score Tracking** - Real-time score display as you consume food
+- **Smooth Controls** - Responsive arrow key controls
+- **Collision Detection** - Game ends when the snake hits walls or itself
+- **Centered Window** - Game window automatically centers on your screen
+- **Simple Graphics** - Clean, minimalist visual design with contrasting colors
 
 ## 🎮 How to Play
 
-1. Open `index.html` in your browser.
-2. Use the arrow keys to move the snake.
-3. Eat the red food blocks to grow longer.
-4. Avoid hitting the walls or your own tail.
-5. Press **Restart Game** to play again after a loss.
+1. **Start the Game** - Run the script to launch the game window
+2. **Move the Snake** - Use arrow keys to control the snake's direction
+3. **Eat Food** - Guide the snake to the red food tiles to grow longer and increase your score
+4. **Avoid Collisions** - Don't hit the walls or your own body
+5. **Game Over** - The game ends when you collide with a wall or yourself
 
 ## ⌨️ Controls
 
@@ -27,26 +28,36 @@ A classic Snake game reimplemented for the browser using HTML, CSS, and JavaScri
 
 ## 📦 Requirements
 
-- A modern web browser
-- No external dependencies required
+- Python 3.x
+- Tkinter (comes pre-installed with Python)
+
+## 🚀 Installation & Setup
+
+1. Clone or download this repository
+2. Navigate to the project directory
+3. No additional dependencies need to be installed (Tkinter is included with Python)
 
 ## ▶️ How to Run
 
-1. Open `index.html` in a browser.
-2. The game starts automatically.
+```bash
+python snake_game.py
+```
+
+The game window will open and the snake will start moving downward. Use arrow keys to control the snake and begin playing!
 
 ## 🎯 Game Rules
 
 - The snake starts with 3 body segments
-- Each food item eaten increases snake length and score by 1
-- The board is 700x700 pixels with 50-pixel tiles
-- The snake moves every 100 milliseconds
+- Each food item eaten increases the snake's length by 1 and the score by 1
+- The game board is 700x700 pixels divided into 50-pixel segments
+- The snake dies if it hits the boundary walls or collides with its own body
+- Game speed: Snake moves every 100 milliseconds
 
 ## 🎨 Game Elements
 
-- **Snake** - Green
-- **Food** - Red
-- **Background** - Black
+- **Snake** - Represented in green (#71E071)
+- **Food** - Represented in dark red (#971717)
+- **Background** - Black grid (#000000)
 
 ## 👤 Author
 
